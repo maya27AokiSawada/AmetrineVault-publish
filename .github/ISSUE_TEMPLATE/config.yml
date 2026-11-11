@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: アカウントの削除・個人情報 / Account deletion and personal data
+    url: https://maya27aokisawada.github.io/AmetrineVault-publish/privacy/#account-deletion
+    about: Issue には書かず、メールでご依頼ください。 / Please request by email, not in an issue.
+  - name: 購入・ライセンス・セキュリティの問題 / Purchases, licenses and security issues
+    url: https://maya27aokisawada.github.io/AmetrineVault-publish/support/#contact
+    about: 個別の内容はメールでお問い合わせください。 / Please contact us by email for private matters.
+  - name: 使用要件 / System requirements
+    url: https://maya27aokisawada.github.io/AmetrineVault-publish/requirements/
+    about: 対応 OS と、同期機能に必要なもの。 / Supported platforms and what you need for sync.

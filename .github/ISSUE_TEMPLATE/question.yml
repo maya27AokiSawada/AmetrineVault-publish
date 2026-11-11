@@ -1,0 +1,30 @@
+name: 使い方の質問 / Question
+description: 使い方がわからないときに / Ask how to use the app
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Issue は誰でも見られます。** 個人情報・サーバーの情報・ノートの内容は書かないでください。
+        ⚠️ **Issues are public.** Do not include personal information, server details or note content.
+
+        動作環境は[使用要件](https://maya27aokisawada.github.io/AmetrineVault-publish/requirements/)もご覧ください。
+        See also the [System Requirements](https://maya27aokisawada.github.io/AmetrineVault-publish/en/requirements/).
+  - type: textarea
+    id: question
+    attributes:
+      label: 質問 / Question
+      description: やりたいことと、試したことを書いてください。 / Describe what you want to do and what you have tried.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: プラットフォーム / Platform
+      multiple: true
+      options:
+        - Windows
+        - macOS
+        - iPad
+        - Android タブレット / Android tablet
+        - Chromebook

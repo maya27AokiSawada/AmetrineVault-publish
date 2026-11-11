@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.app_name }}</title>
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  {% if page.alt_lang %}
+  <link rel="alternate" hreflang="{% if page.lang == 'en' %}ja{% else %}en{% endif %}" href="{{ page.alt_lang | relative_url }}">
+  {% endif %}
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{% if page.lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{{ site.app_name }}</a>
+    <nav>
+      {% if page.lang == 'en' %}
+        <a href="{{ '/en/requirements/' | relative_url }}">Requirements</a>
+        <a href="{{ '/en/eula/' | relative_url }}">EULA</a>
+        <a href="{{ '/en/privacy/' | relative_url }}">Privacy</a>
+        <a href="{{ '/en/support/' | relative_url }}">Support</a>
+      {% else %}
+        <a href="{{ '/requirements/' | relative_url }}">使用要件</a>
+        <a href="{{ '/eula/' | relative_url }}">利用規約（EULA）</a>
+        <a href="{{ '/privacy/' | relative_url }}">プライバシー</a>
+        <a href="{{ '/support/' | relative_url }}">サポート</a>
+      {% endif %}
+      {% if page.alt_lang %}
+        <a class="lang" href="{{ page.alt_lang | relative_url }}">{% if page.lang == 'en' %}日本語{% else %}English{% endif %}</a>
+      {% endif %}
+    </nav>
+  </header>
+  <main class="content">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <p>
+      {% if page.lang == 'en' %}
+        Bug reports &amp; requests: <a href="{{ site.issues_url }}">GitHub Issues</a> ·
+        Private inquiries: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+      {% else %}
+        不具合・要望: <a href="{{ site.issues_url }}">GitHub Issues</a> ·
+        個別のお問い合わせ: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+      {% endif %}
+    </p>
+    <p>&copy; {{ site.time | date: '%Y' }} {% if page.lang == 'en' %}{{ site.publisher_en }}{% else %}{{ site.publisher_ja }}{% endif %}</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,120 @@
+:root {
+  --bg: #fbfaf7;
+  --fg: #23202a;
+  --muted: #6b6573;
+  --accent: #7b4fa6; /* アメトリンの紫 */
+  --accent-2: #c9932b; /* シトリンの黄 */
+  --line: #e4dfe9;
+  --code-bg: #f1edf5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #18161c;
+    --fg: #ebe7f0;
+    --muted: #a59eae;
+    --accent: #c5a3ea;
+    --accent-2: #e2b85c;
+    --line: #34303b;
+    --code-bg: #25222b;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, "Segoe UI", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
+  line-height: 1.8;
+}
+
+a { color: var(--accent); }
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 24px;
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 20px 16px 12px;
+  border-bottom: 2px solid var(--accent-2);
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: var(--fg);
+}
+
+.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  font-size: 0.95rem;
+}
+
+.site-header nav a { text-decoration: none; }
+.site-header nav a:hover { text-decoration: underline; }
+.site-header .lang {
+  padding: 0 8px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.content {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 8px 16px 48px;
+  overflow-wrap: anywhere;
+}
+
+.content h1 { font-size: 1.7rem; line-height: 1.4; margin-top: 1.2em; }
+.content h2 {
+  font-size: 1.25rem;
+  margin-top: 2em;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--line);
+}
+.content h3 { font-size: 1.05rem; margin-top: 1.6em; }
+
+.content table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+.content th, .content td {
+  border: 1px solid var(--line);
+  padding: 6px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+.content th { background: var(--code-bg); }
+
+.content code {
+  background: var(--code-bg);
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.meta { color: var(--muted); font-size: 0.9rem; }
+
+.site-footer {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 16px 16px 32px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.site-footer p { margin: 4px 0; }

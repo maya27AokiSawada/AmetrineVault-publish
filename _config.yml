@@ -1,0 +1,37 @@
+# AmetrineVault のサポートサイト（使用要件・EULA・プライバシーポリシー・サポート）。
+# GitHub Pages（main ブランチの直下）でビルドして公開する。
+#
+# ⚠️ 下の「TODO」の値を本物に置き換えること。
+
+title: AmetrineVault
+description: >-
+  フォルダから段落までを 1 つのツリーとして扱う、知識作業向けの Markdown エディタ。
+
+# 公開先に合わせる。https://<ユーザー名>.github.io/<リポジトリ名>/ なら "/<リポジトリ名>"。
+# 独自ドメインや <ユーザー名>.github.io リポジトリなら "" にする。
+baseurl: "/AmetrineVault-publish"
+url: "https://maya27aokisawada.github.io"
+
+# 文書に差し込む値（すべてのページで共通）
+app_name: AmetrineVault
+publisher_ja: "sumomo-planning"          # TODO: 屋号または氏名（法的な提供者名）
+publisher_en: "sumomo-planning"          # TODO: 英語表記
+contact_email: "support@example.com"     # TODO: 問い合わせ用のメールアドレス（アカウント削除・個人情報の依頼用。必須）
+issues_url: "https://github.com/maya27AokiSawada/AmetrineVault-publish/issues"
+effective_date_ja: "2026年11月11日"       # 施行日（改定したら更新）
+effective_date_en: "November 11, 2026"
+court_ja: "東京地方裁判所"                 # TODO: 合意管轄の裁判所（所在地に合わせる）
+court_en: "Tokyo District Court"
+
+lang: ja
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

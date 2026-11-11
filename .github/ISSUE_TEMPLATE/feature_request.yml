@@ -1,0 +1,44 @@
+name: 機能の要望 / Feature request
+description: 新しい機能や改善の提案 / Suggest a new feature or an improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Issue は誰でも見られます。** 個人情報やノートの内容は書かないでください。
+        ⚠️ **Issues are public.** Do not include personal information or note content.
+  - type: textarea
+    id: problem
+    attributes:
+      label: 困っていること / Problem
+      description: どんな場面で、何に困っていますか。 / In what situation, and what is the difficulty?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: ほしい機能 / Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: いまの回避策・ほかの案 / Workarounds and alternatives
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 使っているプラットフォーム / Platform you use
+      multiple: true
+      options:
+        - Windows
+        - macOS
+        - iPad
+        - Android タブレット / Android tablet
+        - Chromebook
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 確認 / Confirmation
+      options:
+        - label: 同じ内容の Issue がないことを確認しました。 / I have checked that no existing issue covers this.
+          required: true
