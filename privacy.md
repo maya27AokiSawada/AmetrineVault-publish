@@ -11,7 +11,7 @@ permalink: /privacy/
 
 <p class="meta">施行日: {{ site.effective_date_ja }}</p>
 
-{{ site.publisher_ja }}（以下「提供者」）は、アプリ「{{ site.app_name }}」（以下「本アプリ」）で扱う利用者の情報を、このプライバシーポリシーに従って取り扱います。
+{{ site.provider_ja }}（以下「提供者」）は、アプリ「{{ site.app_name }}」（以下「本アプリ」）で扱う利用者の情報を、このプライバシーポリシーに従って取り扱います。
 
 ## 要点
 
@@ -141,7 +141,7 @@ permalink: /privacy/
 
 ## 12. お問い合わせ
 
-- 提供者: {{ site.publisher_ja }}
+- 提供者: {{ site.provider_ja }}
 - お問い合わせ: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
 
 このポリシーは日本語版を正本とします。英語版は参考のための翻訳であり、内容に相違がある場合は日本語版が優先します。

@@ -12,8 +12,11 @@ url: "https://maya27aokisawada.github.io"
 
 # 文書に差し込む値（すべてのページで共通）
 app_name: AmetrineVault
-publisher_ja: "木之本すもも企画"                  # 提供者名（屋号）
+publisher_ja: "木之本すもも企画"                  # 屋号（フッターの著作権表示）
 publisher_en: "Kinomoto Sumomo Planning"
+# 法律上の提供者（個人事業なので個人。ストアのデベロッパー名と照合できるよう屋号と並べる）
+provider_ja: "木之本すもも企画（代表: 金ヶ江真也）"
+provider_en: "Kanagae Shinya, doing business as Kinomoto Sumomo Planning"
 contact_email: "support@sumomo-planning.net"     # 問い合わせ（アカウント削除・個人情報の依頼もここ）
 issues_url: "https://github.com/maya27AokiSawada/AmetrineVault-publish/issues"
 effective_date_ja: "2026年11月11日"               # 施行日（改定したら更新）

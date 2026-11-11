@@ -11,7 +11,7 @@ permalink: /en/privacy/
 
 <p class="meta">Effective date: {{ site.effective_date_en }}</p>
 
-{{ site.publisher_en }} (the "Provider") handles information about users of the app "{{ site.app_name }}" (the "App") in accordance with this Privacy Policy.
+{{ site.provider_en }} (the "Provider") handles information about users of the app "{{ site.app_name }}" (the "App") in accordance with this Privacy Policy.
 
 ## Summary
 
@@ -141,7 +141,7 @@ The Provider may change this Policy as needed. We will notify you in advance on 
 
 ## 12. Contact
 
-- Provider: {{ site.publisher_en }}
+- Provider: {{ site.provider_en }}
 - Contact: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
 
 The Japanese version of this Policy is the governing version. This English version is a translation provided for reference; in case of any discrepancy, the Japanese version prevails.

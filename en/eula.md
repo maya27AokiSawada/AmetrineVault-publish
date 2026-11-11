@@ -11,7 +11,7 @@ permalink: /en/eula/
 
 <p class="meta">Effective date: {{ site.effective_date_en }}</p>
 
-This End User License Agreement (the "Agreement") sets out the terms for using the app "{{ site.app_name }}" (the "App") provided by {{ site.publisher_en }} (the "Provider"). By downloading, installing or using the App, you agree to this Agreement. If you do not agree, do not use the App.
+This End User License Agreement (the "Agreement") sets out the terms for using the app "{{ site.app_name }}" (the "App") provided by {{ site.provider_en }} (the "Provider"). By downloading, installing or using the App, you agree to this Agreement. If you do not agree, do not use the App.
 
 ## 1. Definitions
 
@@ -112,7 +112,7 @@ If you obtained the App from the App Store or the Mac App Store, the following t
 
 ## Provider and Contact
 
-- Provider: {{ site.publisher_en }}
+- Provider: {{ site.provider_en }}
 - Contact: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
 
 The Japanese version of this Agreement is the governing version. This English version is a translation provided for reference; in case of any discrepancy, the Japanese version prevails.
