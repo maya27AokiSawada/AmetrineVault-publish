@@ -1,7 +1,5 @@
 # AmetrineVault のサポートサイト（使用要件・EULA・プライバシーポリシー・サポート）。
 # GitHub Pages（main ブランチの直下）でビルドして公開する。
-#
-# ⚠️ 下の「TODO」の値を本物に置き換えること。
 
 title: AmetrineVault
 description: >-
@@ -14,14 +12,14 @@ url: "https://maya27aokisawada.github.io"
 
 # 文書に差し込む値（すべてのページで共通）
 app_name: AmetrineVault
-publisher_ja: "sumomo-planning"          # TODO: 屋号または氏名（法的な提供者名）
-publisher_en: "sumomo-planning"          # TODO: 英語表記
-contact_email: "support@example.com"     # TODO: 問い合わせ用のメールアドレス（アカウント削除・個人情報の依頼用。必須）
+publisher_ja: "木之本すもも企画"                  # 提供者名（屋号）
+publisher_en: "Kinomoto Sumomo Planning"
+contact_email: "support@sumomo-planning.net"     # 問い合わせ（アカウント削除・個人情報の依頼もここ）
 issues_url: "https://github.com/maya27AokiSawada/AmetrineVault-publish/issues"
-effective_date_ja: "2026年11月11日"       # 施行日（改定したら更新）
+effective_date_ja: "2026年11月11日"               # 施行日（改定したら更新）
 effective_date_en: "November 11, 2026"
-court_ja: "東京地方裁判所"                 # TODO: 合意管轄の裁判所（所在地に合わせる）
-court_en: "Tokyo District Court"
+court_ja: "名古屋地方裁判所"                       # 合意管轄の裁判所
+court_en: "Nagoya District Court"
 
 lang: ja
 
