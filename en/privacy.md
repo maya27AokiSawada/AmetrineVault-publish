@@ -68,7 +68,7 @@ Crash reports are on by default. **You can turn them off at any time in the App'
 
 ## 3. Communication with Third-Party Services
 
-When you use the paid features, the App communicates directly from your device with the following parties. This communication does not pass through the Provider.
+When you use the sync features (Dropbox sync and SFTP sync), the App communicates directly from your device with the following parties. This communication does not pass through the Provider.
 
 - **Dropbox** (Dropbox, Inc.): lists, downloads and uploads files within the scope you authorize. Dropbox's handling of information is governed by the [Dropbox Privacy Policy](https://www.dropbox.com/privacy).
 - **SFTP servers**: the App connects to the server you specify to list, download and upload files. The handling of information on that server is governed by the policies of its administrator.

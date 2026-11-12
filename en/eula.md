@@ -15,8 +15,8 @@ This End User License Agreement (the "Agreement") sets out the terms for using t
 
 ## 1. Definitions
 
-1. "Free Features" means the features of the App that you can use without purchasing a license, such as viewing, editing and searching notes and working with local files.
-2. "Paid Features" means the features available after purchasing a license, such as Dropbox sync and SFTP sync.
+1. "Free Features" means the features of the App that you can use without purchasing a license, such as viewing, editing and searching notes, working with local files, and Dropbox sync.
+2. "Paid Features" means the features available after purchasing a license, such as SFTP sync.
 3. "License" means the right to use the Paid Features, which is managed by linking it to your App account.
 4. "Store" means the App Store, Mac App Store, Google Play or Microsoft Store through which the App is distributed.
 5. "Your Data" means notes, files and other data that you create, edit or store with the App.
@@ -49,7 +49,7 @@ This End User License Agreement (the "Agreement") sets out the terms for using t
 
 ## 6. Third-Party Services
 
-1. The Paid Features communicate with third-party services such as Dropbox, or with servers you specify. Your use of those services is subject to their own terms, and the Provider is not responsible for their availability, changes or discontinuation.
+1. The App's sync features (Dropbox sync and SFTP sync) communicate with third-party services such as Dropbox, or with servers you specify. Your use of those services is subject to their own terms, and the Provider is not responsible for their availability, changes or discontinuation.
 2. You must have proper authorization to use any server or account you connect to.
 
 ## 7. Prohibited Conduct

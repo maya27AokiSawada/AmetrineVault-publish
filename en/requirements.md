@@ -23,6 +23,7 @@ permalink: /en/requirements/
 
 - On iPad and Android tablets, the app is designed for **landscape** orientation. Because it shows three panes side by side (tree, editor and outline), it may not display properly on smartphone screens.
 - On Chromebook, keyboard and mouse (touchpad) are supported. A touchscreen is not required.
+- **On Android tablets and Chromebooks, notes are stored in the app's own folder.** Files in other folders on the device (such as Documents) cannot be opened. To exchange notes with your other devices, use Dropbox or SFTP sync. **Uninstalling the app also deletes the notes in the app's folder** (notes you have synced remain in Dropbox or on your server).
 
 ## Display and Language
 
@@ -43,16 +44,17 @@ An internet connection is required only for the following. All other features (v
 - Syncing with Dropbox or SFTP
 - Sending crash reports (can be turned off in Settings)
 
-## Paid Features (Licensed Version)
+## Using Sync
 
-Dropbox sync and SFTP sync become available after you purchase a license (one-time purchase). An {{ site.app_name }} account (email address and password) is required to purchase and verify the license.
+### Dropbox Sync (free)
 
-### Dropbox Sync
+- A Dropbox account (the free plan is fine). No {{ site.app_name }} account or license is required.
+- Available on: Windows, macOS, Android tablets and Chromebooks (iPad support is planned)
+- On Android tablets and Chromebooks, you sign in to Dropbox in your browser, allow access, and then paste the access code shown into the app.
 
-- A Dropbox account (the free plan is fine)
-- Available on: Windows and macOS (iPad and Android support is planned)
+### SFTP Sync (licensed version)
 
-### SFTP Sync
+SFTP sync becomes available after you purchase a license (one-time purchase). An {{ site.app_name }} account (email address and password) is required to purchase and verify the license.
 
 - A server you can connect to over SSH (SFTP), and an account on it
 - Sign-in methods: password, or private key (OpenSSH or PEM format; passphrase-protected keys are supported)
