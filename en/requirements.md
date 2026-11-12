@@ -18,7 +18,7 @@ permalink: /en/requirements/
 | Windows | Windows 10 / 11 (64-bit) | Microsoft Store |
 | macOS | macOS 12 Monterey or later (Apple silicon and Intel) | Mac App Store |
 | iPad | iPadOS 15 or later | App Store |
-| Android tablets | Android 7.0 or later | Google Play |
+| Android tablets | Android 8.0 or later | Google Play |
 | Chromebook | ChromeOS with Google Play Store support | Google Play |
 
 - On iPad and Android tablets, the app is designed for **landscape** orientation. Because it shows three panes side by side (tree, editor and outline), it may not display properly on smartphone screens.

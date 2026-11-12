@@ -18,7 +18,7 @@ permalink: /requirements/
 | Windows | Windows 10 / 11（64 ビット） | Microsoft Store |
 | macOS | macOS 12 Monterey 以降（Apple シリコン・Intel） | Mac App Store |
 | iPad | iPadOS 15 以降 | App Store |
-| Android タブレット | Android 7.0 以降 | Google Play |
+| Android タブレット | Android 8.0 以降 | Google Play |
 | Chromebook | Google Play ストアに対応した ChromeOS | Google Play |
 
 - iPad・Android タブレットは**横向き**での利用を想定しています。3 つのペイン（ツリー・エディタ・アウトライン）を並べるため、スマートフォンの画面では十分に表示できない場合があります。
