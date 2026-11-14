@@ -28,7 +28,7 @@ permalink: /en/requirements/
 ## Display and Language
 
 - Recommended screen width: 1,280 pixels or more
-- App language: Japanese (the user interface is currently available in Japanese only)
+- App language: English and Japanese (follows your OS language and can be changed in the app settings; other OS languages show English)
 
 ## Storage
 
