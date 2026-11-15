@@ -34,10 +34,11 @@ This End User License Agreement (the "Agreement") sets out the terms for using t
 3. The validity of the License is verified on the Provider's server. Once verified, the Paid Features keep working for 30 days after the last successful verification even if the server cannot be reached.
 4. Refunds are handled according to the refund policy of the Store where you made the purchase. If a purchase is refunded or found to be fraudulent, the License becomes invalid.
 5. Features added in the future (add-ons) may be sold as separate products. The scope of features available with a License you have already purchased is as described at the time of purchase.
+6. If you purchase the License as a Microsoft Store add-on in the Windows version, then notwithstanding paragraphs 2 and 3, the License is recorded to the Microsoft account used for the purchase and its validity is verified by Microsoft Store. In this case no App account is required, and you can use the License on Windows devices where you sign in with the same Microsoft account, within the limits of the Microsoft Store terms.
 
 ## 4. Account
 
-1. An account with an email address and password is required to purchase and verify the License.
+1. An account with an email address and password is required to purchase and verify the License (except in the case of Section 3, paragraph 6).
 2. You are responsible for keeping your password secure.
 3. You may request deletion of your account at any time. The procedure is described in the [Privacy Policy]({{ '/en/privacy/' | relative_url }}#account-deletion). When your account is deleted, any License linked to it can no longer be used.
 

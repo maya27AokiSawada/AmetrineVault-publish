@@ -54,6 +54,8 @@ This information is managed with Firebase (Firebase Authentication and Cloud Fir
 
 Payments in the Stores are processed by each Store (Apple, Google or Microsoft). The Provider does not receive payment information such as credit card numbers.
 
+If you buy a Microsoft Store add-on in the Windows version, whether you own it is checked on your device through Windows with Microsoft Store. The result is not sent to the Provider's servers.
+
 ### 2.3 Crash Reports
 
 When the App crashes or an unexpected error occurs, the App sends the following information to Sentry, provided by Functional Software, Inc., so that we can investigate the cause.

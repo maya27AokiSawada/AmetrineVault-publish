@@ -54,6 +54,8 @@ permalink: /privacy/
 
 ストアでの支払いは、各ストア（Apple・Google・Microsoft）が処理します。提供者は、クレジットカード番号などの支払い情報を受け取りません。
 
+Windows 版で Microsoft Store のアドオンを購入した場合、購入済みかどうかは、端末の中で Windows を通じて Microsoft Store に確認します。この確認の結果は、提供者のサーバーには送りません。
+
 ### 2-3. クラッシュレポート
 
 本アプリが異常終了したり予期しないエラーが起きたりしたとき、原因を調べるために、Functional Software, Inc. が提供する Sentry へ次の情報を送ります。
