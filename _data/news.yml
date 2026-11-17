@@ -1,0 +1,30 @@
+# お知らせ。新しいものを上に書く。
+# ニュースのページ（/news/・/en/news/）と、アプリが読む feed.json の元になる。
+#
+# date:      公開日（YYYY-MM-DD）
+# title / body: ja・en の両方を書く（body は Markdown。1〜2 文が目安）
+# platforms: アプリで表示する OS（windows / macos / ios / android）。省略するとすべて。
+#            ストアの購入・価格の案内は、そのストアの OS だけにする
+#            （App Store・Google Play の審査ガイドラインで、他の購入方法への誘導が禁止されているため）。
+#            サイトのページには常に全件を載せる。
+
+- id: 2026-11-17-early-adopter
+  date: 2026-11-17
+  platforms: [windows]
+  title:
+    ja: Microsoft Store でアーリーアダプター特典の販売を始めました
+    en: Early Adopter Benefits now available on the Microsoft Store
+  body:
+    ja: サブスクリプション専用の機能を除く、すべての有料機能（現在は SFTP 同期）を使える買い切りの特典です。2027年1月31日（UTC）までの期間限定販売です。
+    en: >-
+      A one-time purchase that unlocks all paid features except subscription-only ones (currently SFTP sync).
+      Available until January 31, 2027 (UTC).
+
+- id: 2026-11-17-news
+  date: 2026-11-17
+  title:
+    ja: お知らせと変更履歴のページを開設しました
+    en: News and release notes pages are now available
+  body:
+    ja: アプリの更新内容やお知らせは、このページとアプリの設定画面でお知らせします。
+    en: Updates and announcements will be posted here and in the app's Settings.

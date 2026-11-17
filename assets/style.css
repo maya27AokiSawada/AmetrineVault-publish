@@ -118,3 +118,16 @@ a { color: var(--accent); }
   font-size: 0.85rem;
 }
 .site-footer p { margin: 4px 0; }
+
+/* お知らせ・変更履歴の 1 件 */
+.entry {
+  padding: 4px 0 8px;
+  border-bottom: 1px solid var(--line);
+}
+.entry h2 { margin-top: 0.4em; }
+.entry-date {
+  margin: 1em 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.entry h2 + .entry-date { margin-top: -0.6em; }

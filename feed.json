@@ -1,0 +1,35 @@
+---
+# アプリの設定画面が読むお知らせと変更履歴（_data/news.yml・_data/changelog.yml から生成）。
+# 形を変えるときは、アプリの lib/news/site_feed.dart も合わせる（古いアプリも読めるよう、項目は足すだけにする）。
+layout: null
+permalink: /feed.json
+---
+{%- assign base = site.url | append: site.baseurl -%}
+{
+  "schema": 1,
+  "pages": {
+    "news": {"ja": {{ base | append: '/news/' | jsonify }}, "en": {{ base | append: '/en/news/' | jsonify }}},
+    "changelog": {"ja": {{ base | append: '/changelog/' | jsonify }}, "en": {{ base | append: '/en/changelog/' | jsonify }}}
+  },
+  "news": [
+    {%- for item in site.data.news %}
+    {
+      "id": {{ item.id | jsonify }},
+      "date": {{ item.date | date: '%Y-%m-%d' | jsonify }},
+      "platforms": {% if item.platforms %}{{ item.platforms | jsonify }}{% else %}[]{% endif %},
+      "title": {{ item.title | jsonify }},
+      "body": {{ item.body | jsonify }},
+      "url": {"ja": {{ base | append: '/news/#' | append: item.id | jsonify }}, "en": {{ base | append: '/en/news/#' | append: item.id | jsonify }}}
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ],
+  "releases": [
+    {%- for release in site.data.changelog %}
+    {
+      "version": {{ release.version | jsonify }},
+      "date": {{ release.date | date: '%Y-%m-%d' | jsonify }},
+      "notes": {{ release.notes | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ]
+}

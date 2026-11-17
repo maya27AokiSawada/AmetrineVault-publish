@@ -15,11 +15,15 @@
     <a class="brand" href="{% if page.lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{{ site.app_name }}</a>
     <nav>
       {% if page.lang == 'en' %}
+        <a href="{{ '/en/news/' | relative_url }}">News</a>
+        <a href="{{ '/en/changelog/' | relative_url }}">Release Notes</a>
         <a href="{{ '/en/requirements/' | relative_url }}">Requirements</a>
         <a href="{{ '/en/eula/' | relative_url }}">EULA</a>
         <a href="{{ '/en/privacy/' | relative_url }}">Privacy</a>
         <a href="{{ '/en/support/' | relative_url }}">Support</a>
       {% else %}
+        <a href="{{ '/news/' | relative_url }}">お知らせ</a>
+        <a href="{{ '/changelog/' | relative_url }}">変更履歴</a>
         <a href="{{ '/requirements/' | relative_url }}">使用要件</a>
         <a href="{{ '/eula/' | relative_url }}">利用規約（EULA）</a>
         <a href="{{ '/privacy/' | relative_url }}">プライバシー</a>

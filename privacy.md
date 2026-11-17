@@ -75,6 +75,8 @@ Windows 版で Microsoft Store のアドオンを購入した場合、購入済�
 - **Dropbox**（Dropbox, Inc.）: 利用者が許可した範囲で、ファイルの一覧・取得・保存を行います。Dropbox での情報の取扱いは、[Dropbox のプライバシーポリシー](https://www.dropbox.com/privacy)に従います。
 - **SFTP サーバー**: 利用者が指定したサーバーに接続し、ファイルの一覧・取得・保存を行います。サーバーでの情報の取扱いは、そのサーバーの管理者の方針に従います。
 
+本アプリの「設定」を開くと、お知らせと変更履歴を表示するために、このサイト（GitHub, Inc. が提供する GitHub Pages）からお知らせのデータを取得します。このとき送られるのは、通常の Web ページの閲覧と同じ情報（IP アドレス・アプリの種類など）だけで、アカウントやノートの情報は送りません。GitHub での情報の取扱いは、[GitHub のプライバシーに関する声明](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)に従います。
+
 本アプリで HTML ファイルを表示する場合、その HTML が外部の画像などを読み込むと、その配信元と通信することがあります。ページ内のリンクは、利用者の端末の既定のブラウザで開きます。
 
 ## 4. 利用目的

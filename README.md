@@ -6,6 +6,8 @@ Public information for [AmetrineVault](https://maya27aokisawada.github.io/Ametri
 
 | | 日本語 | English |
 |---|---|---|
+| お知らせ / News | [news](https://maya27aokisawada.github.io/AmetrineVault-publish/news/) | [news](https://maya27aokisawada.github.io/AmetrineVault-publish/en/news/) |
+| 変更履歴 / Release notes | [changelog](https://maya27aokisawada.github.io/AmetrineVault-publish/changelog/) | [changelog](https://maya27aokisawada.github.io/AmetrineVault-publish/en/changelog/) |
 | 使用要件 / Requirements | [requirements](https://maya27aokisawada.github.io/AmetrineVault-publish/requirements/) | [requirements](https://maya27aokisawada.github.io/AmetrineVault-publish/en/requirements/) |
 | 利用規約 / EULA | [eula](https://maya27aokisawada.github.io/AmetrineVault-publish/eula/) | [eula](https://maya27aokisawada.github.io/AmetrineVault-publish/en/eula/) |
 | プライバシー / Privacy | [privacy](https://maya27aokisawada.github.io/AmetrineVault-publish/privacy/) | [privacy](https://maya27aokisawada.github.io/AmetrineVault-publish/en/privacy/) |
@@ -22,4 +24,5 @@ Choose a template from [Issues](https://github.com/maya27AokiSawada/AmetrineVaul
 Jekyll で、`main` ブランチの直下を GitHub Pages が公開する。文書に差し込む値（提供者名・問い合わせ先・施行日）は `_config.yml` にまとめてある。
 
 - 内容はアプリの実装に合わせて書いている（送る情報: Firebase のメール・ライセンス、Sentry の伏字にしたクラッシュレポート / オフラインの猶予 30 日 / 対応 OS）。アプリ側を変えたら文書も直す。
+- お知らせは `_data/news.yml`、変更履歴は `_data/changelog.yml` に書く。ページ（`/news/`・`/changelog/`、英語は `/en/` の下）と、アプリの設定画面が読む `/feed.json` がここから作られる。お知らせの `platforms` で、アプリで表示する OS を絞れる（ストアの購入案内は、そのストアの OS だけにする）。`feed.json` の形を変えるときはアプリの `lib/news/site_feed.dart` も合わせる。
 - ローカルで確認: `bundle install` → `bundle exec jekyll serve --baseurl ""`

@@ -75,6 +75,8 @@ When you use the sync features (Dropbox sync and SFTP sync), the App communicate
 - **Dropbox** (Dropbox, Inc.): lists, downloads and uploads files within the scope you authorize. Dropbox's handling of information is governed by the [Dropbox Privacy Policy](https://www.dropbox.com/privacy).
 - **SFTP servers**: the App connects to the server you specify to list, download and upload files. The handling of information on that server is governed by the policies of its administrator.
 
+When you open Settings in the App, it downloads news data from this website (hosted on GitHub Pages by GitHub, Inc.) to show news and release notes. Only the information sent when viewing an ordinary web page (such as your IP address and the type of app) is sent; no account or note information is sent. GitHub's handling of information is governed by the [GitHub General Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
+
 When the App displays an HTML file, it may communicate with external hosts if that HTML loads external resources such as images. Links in the page open in your device's default browser.
 
 ## 4. How We Use Information

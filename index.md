@@ -10,6 +10,8 @@ permalink: /
 
 フォルダ・ファイル・見出し・段落を **1 つのツリー** として探索・編集する、知識作業向けの Markdown エディタです。ノートはお使いの端末上の Markdown ファイルとして保存されます。
 
+- [お知らせ]({{ '/news/' | relative_url }})
+- [変更履歴]({{ '/changelog/' | relative_url }})
 - [使用要件]({{ '/requirements/' | relative_url }})
 - [利用規約（使用許諾契約・EULA）]({{ '/eula/' | relative_url }})
 - [プライバシーポリシー]({{ '/privacy/' | relative_url }})

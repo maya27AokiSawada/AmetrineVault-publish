@@ -1,0 +1,31 @@
+# 変更履歴。新しいバージョンを上に書く。
+# 変更履歴のページ（/changelog/・/en/changelog/）と、アプリが読む feed.json の元になる。
+# リリースを公開してから追加する（審査中のものは載せない）。
+#
+# version: pubspec.yaml の build-name（1.1.0 など）
+# date:    ストアでの公開日（YYYY-MM-DD）
+# notes:   ja・en の箇条書き。ストアのリリースノートと同じ内容にする
+
+- version: 1.1.0
+  date: 2026-11-14
+  notes:
+    ja:
+      - 英語表示に対応しました（OS の言語に合わせて切り替わります。設定画面でも選べます）
+      - Dropbox との同期をライセンスなしで使えるようにしました
+      - フォルダを開いたときに読み込む深さを設定できるようにしました（3〜10 階層・無制限）
+      - SFTP の同期中にサーバー側でフォルダやファイルが見つからなくなっても、止まらずに同期を続けるようにしました
+      - 同期の進み具合と結果を表示し、同期中はアイコンが点滅するようにしました
+    en:
+      - The app is now available in English (it follows your OS language and can be changed in Settings)
+      - Dropbox sync no longer requires a license
+      - You can now choose how many folder levels to load when opening a folder (3–10 levels or unlimited)
+      - SFTP sync no longer stops when a folder or file disappears from the server during sync
+      - Sync progress and results are shown, and the icon blinks while syncing
+
+- version: 1.0.0
+  date: 2026-11-12
+  notes:
+    ja:
+      - 最初のリリースです。
+    en:
+      - Initial release.
